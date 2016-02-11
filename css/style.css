@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box; }
 
+body {
+  overflow-x: hidden; }
+
 .hero-background {
   background: url("../images/PaintSplatterBG.jpeg");
   height: 100vh;
@@ -29,7 +32,8 @@ nav a:link, nav a:active, nav a:visited {
   margin: 20px; }
 
 nav a:hover {
-  background-color: #888888;
+  background-color: #3fb0ac;
+  border-color: #3fb0ac;
   text-decoration: none;
   color: #fff;
   -o-transition: .5s;
@@ -64,10 +68,15 @@ h1 {
   font-family: "Philosopher", sans-serif; }
 
 .portfolio {
-  height: 400px;
   overflow: hidden;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  width: 100%; }
+
+.padding-top {
+  padding-top: 30px; }
+
+.padding {
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .portfolio:hover {
   opacity: .8;
