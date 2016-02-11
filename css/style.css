@@ -16,17 +16,27 @@
 
 nav {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  font-family: "Muli", sans-serif;
-  color: #888888;
-  font-size: 16px;
-  font-weight: bold; }
+  top: 30px;
+  right: 10px; }
 
-.nav-border {
+nav a:link, nav a:active, nav a:visited {
+  color: #888888;
+  text-decoration: none;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
   border: 2px solid #888888;
-  padding: 5px;
-  margin: 5px; }
+  padding: 10px;
+  margin: 20px; }
+
+nav a:hover {
+  background-color: #888888;
+  text-decoration: none;
+  color: #fff;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
 
 .hero-title {
   max-width: 50%;
@@ -60,10 +70,15 @@ h1 {
   padding-bottom: 20px; }
 
 .portfolio:hover {
-  opacity: .8; }
+  opacity: .8;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
 
 .about-me {
-  background-color: #e8e8e8;
+  background-color: #eeeeee;
   width: 100%; }
 
 .headshot {

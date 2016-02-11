@@ -1,7 +1,7 @@
 $serif-title: 'Vollkorn', serif;
 $sans-serif-title: 'Philosopher', sans-serif;
 $body-font: 'Muli', sans-serif;
-$light-grey: #e8e8e8;
+$light-grey: #eeeeee;
 $dark-grey: #888888;
 $yellow: #fae596;
 $teal: #3fb0ac;
@@ -28,18 +28,29 @@ $dark-teal: #173e43;
 
 nav {
   position: absolute;
-  top: 10px;
+  top: 30px;
   right: 10px;
-  font-family: $body-font;
-  color: $dark-grey;
-  font-size: 16px;
-  font-weight: bold;
 }
 
-.nav-border {
+nav a:link, nav a:active, nav a:visited {
+  color: $dark-grey;
+  text-decoration: none;
+  font-family: $body-font;
+  font-size: 16px;
   border: 2px solid $dark-grey;
-  padding: 5px;
-  margin: 5px;
+  padding: 10px;
+  margin: 20px;
+}
+
+nav a:hover {
+  background-color: $dark-grey;
+  text-decoration: none;
+  color: #fff;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 
 .hero-title {
@@ -81,6 +92,11 @@ h1 {
 
 .portfolio:hover {
   opacity: .8;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 
 .about-me {
