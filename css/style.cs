@@ -17,8 +17,7 @@
 
 .first-name {
   font-family: "Philosopher", sans-serif;
-  font-size: 50px;
-  letter-spacing: 5px; }
+  font-size: 50px; }
 
 .last-name {
   font-family: "Vollkorn", serif;
@@ -29,7 +28,7 @@ h1 {
 
 .personal-statement {
   width: 50%;
-  color: #fff;
+  color: #3fb0ac;
   text-align: center;
   font-size: 20px;
   line-height: 75%;
@@ -42,7 +41,7 @@ h1 {
   padding-bottom: 20px; }
 
 .about-me {
-  background-color: #e8e8e8;
+  background-color: #dddfd4;
   width: 100%; }
 
 .headshot {
@@ -56,11 +55,6 @@ h1 {
   color: #173e43;
   padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: 2px solid #3fb0ac;
-  margin-bottom: 30px; }
+  border-bottom: #fae596; }
 
-.caitlin-description {
-  font-family: "Muli", sans-serif;
-  font-color: #173e43; }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */

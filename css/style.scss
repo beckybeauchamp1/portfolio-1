@@ -1,6 +1,10 @@
 $serif-title: 'Vollkorn', serif;
 $sans-serif-title: 'Philosopher', sans-serif;
 $body-font: 'Muli', sans-serif;
+$light-grey: #e8e8e8;
+$yellow: #fae596;
+$teal: #3fb0ac;
+$dark-teal: #173e43;
 
 .hero-background {
   background: url("../images/PaintSplatterBG.jpeg");
@@ -13,6 +17,10 @@ $body-font: 'Muli', sans-serif;
   flex-direction: column;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .hero-title {
   max-width: 50%;
   color: #fff;
@@ -21,6 +29,7 @@ $body-font: 'Muli', sans-serif;
 .first-name {
   font-family: $sans-serif-title;
   font-size: 50px;
+  letter-spacing: 5px;
 }
 
 .last-name {
@@ -39,4 +48,37 @@ h1 {
   font-size: 20px;
   line-height: 75%;
   font-family: $sans-serif-title;
+}
+
+.portfolio {
+  height: 400px;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.about-me {
+  background-color: $light-grey;
+  width: 100%;
+}
+
+.headshot {
+  height: 300px;
+  padding-top: 50px;
+  opacity: .95;
+}
+
+.content-title {
+  font-family: $serif-title;
+  font-size: 30px;
+  color: $dark-teal;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid $teal;
+  margin-bottom: 30px;
+}
+
+.caitlin-description {
+  font-family: $body-font;
+  font-color: $dark-teal;
 }
