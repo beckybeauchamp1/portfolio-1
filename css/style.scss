@@ -105,18 +105,31 @@ h1 {
   transition:.5s;
 }
 
-.portfolio {
+.portfolio-thumbnail {
+  max-width: 380px;
+  text-align: center;
   overflow: hidden;
+}
+
+.portfolio-image {
   width: 100%;
 }
 
-.portfolio-link a:hover {
-  opacity: .8;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+.portfolio-image img {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.portfolio-image:hover img {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+    opacity: .7;
 }
 
 .padding-top {
@@ -140,6 +153,17 @@ h1 {
   filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+
+.headshot:hover {
+  filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 
 .content-title {
