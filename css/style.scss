@@ -96,7 +96,7 @@ h1 {
   width: 50px;
 }
 
-.down-arrow:hover {
+.down-arrow a:hover {
   opacity: .8;
   -o-transition:.5s;
   -ms-transition:.5s;
@@ -110,6 +110,15 @@ h1 {
   width: 100%;
 }
 
+.portfolio a:hover {
+  opacity: .8;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
 .padding-top {
   padding-top: 30px;
 }
@@ -117,15 +126,6 @@ h1 {
 .padding {
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.portfolio:hover {
-  opacity: .8;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
 }
 
 .about-me {
@@ -159,8 +159,19 @@ h1 {
 
 .social-media-icons {
   width: 30px;
+  margin: 30px 10px 30px 10px;
+}
+
+.icons a:hover {
+  opacity: .8;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 
 .footer {
   background-color: $dark-teal;
+  text-align: center;
 }

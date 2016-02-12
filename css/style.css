@@ -73,7 +73,7 @@ h1 {
 .arrow-size {
   width: 50px; }
 
-.down-arrow:hover {
+.down-arrow a:hover {
   opacity: .8;
   -o-transition: .5s;
   -ms-transition: .5s;
@@ -85,20 +85,20 @@ h1 {
   overflow: hidden;
   width: 100%; }
 
-.padding-top {
-  padding-top: 30px; }
-
-.padding {
-  padding-top: 30px;
-  padding-bottom: 30px; }
-
-.portfolio:hover {
+.portfolio a:hover {
   opacity: .8;
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
   -webkit-transition: .5s;
   transition: .5s; }
+
+.padding-top {
+  padding-top: 30px; }
+
+.padding {
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .about-me {
   background-color: #eeeeee;
@@ -124,5 +124,21 @@ h1 {
 .caitlin-description {
   font-family: "Muli", sans-serif;
   font-color: #173e43; }
+
+.social-media-icons {
+  width: 30px;
+  margin: 30px 10px 30px 10px; }
+
+.icons a:hover {
+  opacity: .8;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.footer {
+  background-color: #173e43;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
