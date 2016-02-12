@@ -67,6 +67,20 @@ h1 {
   letter-spacing: 2px;
   font-family: "Philosopher", sans-serif; }
 
+.down-arrow {
+  padding: 30px; }
+
+.arrow-size {
+  width: 50px; }
+
+.down-arrow:hover {
+  opacity: .8;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
 .portfolio {
   overflow: hidden;
   width: 100%; }
@@ -93,7 +107,10 @@ h1 {
 .headshot {
   height: 300px;
   padding-top: 50px;
-  opacity: .95; }
+  opacity: .95;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
 
 .content-title {
   font-family: "Vollkorn", serif;
