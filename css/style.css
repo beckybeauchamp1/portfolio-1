@@ -5,7 +5,7 @@ body {
   overflow-x: hidden; }
 
 .hero-background {
-  background: url("../images/PaintSplatterBG.jpeg");
+  background: url("../images/PaintSplatter.jpeg");
   height: 100vh;
   background-size: cover;
   background-position: center;
